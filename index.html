@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        #txtnome,
+        #txtnum,
+        #txtemail,
+        #txtpass,
+        #txtn {
+            background-color: rgb(255, 242, 251);
+            text-decoration: underline;
+           
+
+        }
+
+        #txtnome:focus {
+            background-color: rgb(255, 255, 255);
+        }
+       body{
+        size:auto;
+       }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="txtnome">Insira o seu nome completo:</label>
+            <input type="text" name="txtnome" id="txtnome">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="chkest" id="chkest">
+            <label for="chkest">É estudante?</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="chktrb" id="chktrb">
+            <label for="chktrb">Você trabalha?</label>
+        </div>
+        <br>
+        <div>
+            <label for="txtcor">cor favorita</label>
+            <input type="color" name="txtcor" id="txtcor">
+        </div>
+        <br>
+        <div>
+            <label for="txtnum">Quantos animais você tem?</label>
+            <input type="number" name="txtnum" id="txtnum">
+        </div>
+        <br>
+        <div>
+            <label for="txtemail">Insira seu e-mail:</label>
+            <input type="email" name="txtemail" id="txtemail">
+        </div>
+        <br>
+        <div>
+            <label for="txtpass">Insira sua senha:</label>
+            <input type="password" name="txtpass" id="txtpass">
+        </div>
+        <br>
+        <div>
+            <label for="txtn">Insira sua idade:</label>
+            <input type="number" name="txtn" id="txtn">
+        </div>
+        <div>
+            <br>
+            <label for="txtdata">Insira sua data de nascimento:</label>
+            <input type="date" name="txtdata" id="txtdata">
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="name">Insira o seu gênero:</label>
+            <input type="radio" name="gg" id="gg">
+            <label for="gg">feminino</label>
+
+            <input type="radio" name="gg" id="gh">
+            <label for="gh">masculino</label>
+
+        </div>
+        <br>
+        <div>
+
+            <input type="button" value="Enviar" onclick="msg()">
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
